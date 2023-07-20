@@ -2,83 +2,76 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "⚡ saivignesh ⚡",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A driven individual who thrives on working on complete products that produce impact by developing sustainable and scalable social and technological solutions.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "M.Krishna Sai Vignesh",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "http://vignesh.com/",
   },
 };
 
 //Home Page
 const greeting = {
-  title: "Ashutosh Hathidara",
-  logo_name: "AshutoshHathidara",
-  nickname: "layman_brother",
+  title: "infyskill",
+  logo_name: "VELTECH",
+  nickname: "Vignesh,Madhav,Jakeer",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "This website is prepared by us supervised by Mr. Siva Rama Lingham.N. In this application we can show cases the work and clinets.My work showcases my passion in developing and my dedication to delivering exceptional results. With many no of clinets in the industry, I have developed a keen eye for detail and an ability to bring my client's vision to life.",
   resumeLink:
-    "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+    "https://drive.google.com/file/d/16yECKthYQ2fu995O2IhmQLbtQqC_RZ7j/view?usp=sharing",
+  portfolio_repository: "https://github.com/saivigneesh456",
+  githubProfile: "https://github.com/saivigneesh456",
 };
 
 const socialMediaLinks = [
   /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
 
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919",
+    link: "https://github.com/saivigneesh456",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh1919/",
+    link: "https://www.linkedin.com/in/msai-vignesh-5bab19198/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
     name: "YouTube",
-    link: "https://youtube.com/c/DevSense19",
+    link: "https://www.youtube.com/@vigneshsai/about",
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
   {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto:sai.9441051886@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
     name: "Twitter",
-    link: "https://twitter.com/ashutosh_1919",
+    link: "https://twitter.com/msaivignesh",
     fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
     backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
   },
   {
     name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
+    link: "https://www.facebook.com/krishnasai.vignesh/",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
+    link: "https://www.instagram.com/m_s_a_i_vignesh123/?hl=en",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
@@ -87,57 +80,13 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "Deeplearning",
-          imageSrc: "deeplearning_ai_logo.png",
-        },
-      ],
-    },
-    {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Full stack development refers to the practice of developing both the front-end and back-end components of a website or application.",
+        "⚡ Full stack developers are skilled in multiple programming languages and frameworks and can work on all layers of an application's architecture.",
+        "⚡ This requires a broad range of skills, including proficiency in programming languages such as HTML, CSS, JavaScript, and at least one back-end language like Java, Python, or Ruby on Rails.",
+        "⚡ Full stack developers are responsible for creating and integrating various software components to ensure that an application runs smoothly and efficiently. ",
       ],
       softwareSkills: [
         {
@@ -155,8 +104,8 @@ const skills = {
           },
         },
         {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
+          skillName: "Python",
+          fontAwesomeClassname: "simple-icons:python",
           style: {
             color: "#CC6699",
           },
@@ -213,6 +162,48 @@ const skills = {
         },
       ],
     },
+    {
+      title: "Python & ML",
+      fileName: "DataScienceImg",
+      skills: [
+        "⚡ It's also a popular choice for machine learning (ML) due to its simplicity and flexibility.",
+        "⚡ Python's extensive library ecosystem, including popular libraries such as NumPy, Pandas, Matplotlib, and Scikit-learn, makes it an excellent choice for ML development.",
+        "⚡ Some of the most common ML techniques used in Python include regression, classification, clustering, and neural networks.",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Machine Learing",
+          fontAwesomeClassname: "logos-tensorflow",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Keras",
+          fontAwesomeClassname: "simple-icons:keras",
+          style: {
+            backgroundColor: "white",
+            color: "#D00000",
+          },
+        },
+        {
+          skillName: "PyTorch",
+          fontAwesomeClassname: "logos-pytorch",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "ion-logo-python",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+      ],
+    },
+
     {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
@@ -332,7 +323,7 @@ const competitiveSites = {
       style: {
         color: "#F79F1B",
       },
-      profileLink: "https://leetcode.com/layman_brother/",
+      profileLink: "https://leetcode.com/vtu13500/",
     },
     {
       siteName: "HackerRank",
@@ -340,7 +331,7 @@ const competitiveSites = {
       style: {
         color: "#2EC866",
       },
-      profileLink: "https://www.hackerrank.com/layman_brother",
+      profileLink: "https://www.hackerrank.com/sai_9441051886",
     },
     {
       siteName: "Codechef",
@@ -348,7 +339,7 @@ const competitiveSites = {
       style: {
         color: "#5B4638",
       },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
+      profileLink: "https://www.codechef.com/users/msai_456",
     },
     {
       siteName: "Codeforces",
@@ -356,7 +347,7 @@ const competitiveSites = {
       style: {
         color: "#1F8ACB",
       },
-      profileLink: "http://codeforces.com/profile/layman_brother",
+      profileLink: "https://codeforces.com/",
     },
     {
       siteName: "Hackerearth",
@@ -364,7 +355,7 @@ const competitiveSites = {
       style: {
         color: "#323754",
       },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
+      profileLink: "https://www.hackerearth.com/@vtu13500",
     },
     {
       siteName: "Kaggle",
@@ -372,7 +363,7 @@ const competitiveSites = {
       style: {
         color: "#20BEFF",
       },
-      profileLink: "https://www.kaggle.com/laymanbrother",
+      profileLink: "https://www.kaggle.com/krishsaivignesh",
     },
   ],
 };
@@ -380,30 +371,44 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - 2020",
+      title:
+        "Vel Tech Rangarajan Dr.Sagunthala R&D Institute of Science and Technology,",
+      subtitle: "B.Tech. in Computer Science and Engineering",
+      logo_path: "iu_logo.png",
+      alt_name: "VEL TECH UNVERSITY",
+      duration: "2019 - 2023",
       descriptions: [
         "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
         "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
         "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
       ],
-      website_link: "http://iiitk.ac.in",
+      website_link: "https://www.veltech.edu.in/",
     },
     {
-      title: "Indiana University Bloomington",
-      subtitle: "M.S. in Computer Science",
-      logo_path: "iu_logo.png",
-      alt_name: "Indiana University Bloomington",
-      duration: "2021 - 2023",
+      title: "Sri Chaitanya Junior College Vijayawada",
+      subtitle: "Inter MPC",
+      logo_path: "sri.png",
+      alt_name: "Sri Chaitanya",
+      duration: "2017 - 2019",
       descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
+        "⚡ I have taken varity of courses related to Mathematics is the study of numbers, quantities, and shapes, and is essential to many fields, including science, engineering, and finance.",
+        "⚡ Physics is the study of matter, energy, and the fundamental laws of the universe. It helps us understand the behavior of the natural world, from the tiniest particles to the largest structures in the universe.",
+        "⚡ Chemistry is the study of matter and its properties, and the chemical reactions that occur between different substances. It helps us understand the composition and behavior of substances, from the smallest molecules to complex chemical systems.",
       ],
-      website_link: "https://www.indiana.edu/",
+      website_link: "https://srichaitanya.net/",
+    },
+    {
+      title: "Montessori English Medium High School",
+      subtitle: "10th Class",
+      logo_path: "mon.png",
+      alt_name: "Montessori School",
+      duration: "2016 - 2017",
+      descriptions: [
+        "⚡ 10th class education is an important milestone for many students as it prepares them for higher education or vocational training and helps them develop essential skills, such as critical thinking, problem-solving, and communication.",
+        "⚡ Students who complete 10th class education are often eligible to take standardized tests or entrance exams that are required for college or university admission in many countries.",
+        "⚡ Overall, 10th class education is an important step in a student's educational journey, providing a foundation for future academic and career success.",
+      ],
+      website_link: "http://www.montessoriprimaryschool.com/",
     },
   ],
 };
@@ -411,87 +416,87 @@ const degrees = {
 const certifications = {
   certifications: [
     {
+      title: "Oracle Certified Associate, Java SE 8 Programmer",
+      subtitle: "Oracle",
+      logo_path: "oracle.webp",
+      certificate_link:
+        "https://drive.google.com/file/d/1Yrj-CcK-PZFZqkAbH_dvCO7BTvD3KtFy/view?usp=sharing",
+      alt_name: "oracle",
+      color_code: "#0C9D5899",
+    },
+    {
       title: "Machine Learning",
-      subtitle: "- Andrew Ng",
+      subtitle: "AWS",
       logo_path: "stanford_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
+        "https://drive.google.com/file/d/19C6dYqKQHKnSwgsgk0OsAxtcrhE20wBP/view?usp=sharing",
+      alt_name: "AWS Amazon",
       color_code: "#8C151599",
     },
     {
-      title: "Deep Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "deeplearning_ai_logo.png",
+      title: "AWS AI-ML",
+      subtitle: "AICTE ",
+      logo_path: "aicte.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-      alt_name: "deeplearning.ai",
+        "https://drive.google.com/file/d/1Im1PJohh0BfG21HoQDFmwK0_5liOvG91/view?usp=sharing",
+      alt_name: "aicte",
       color_code: "#00000099",
     },
     {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
+      title: "Blue Prism Foundation Training",
+      subtitle: "BLUE PRISM",
+      logo_path: "blue.jfif",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
+        "https://drive.google.com/file/d/1ZloCyiaHYEodiVEwBBi0zPJh9HUsAm9V/view?usp=sharing",
       alt_name: "Google",
       color_code: "#0C9D5899",
     },
     {
-      title: "Data Science",
-      subtitle: "- Alex Aklson",
-      logo_path: "ibm_logo.png",
+      title: "Process Mining",
+      subtitle: "Celonis",
+      logo_path: "cle.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-      alt_name: "IBM",
+        "https://drive.google.com/file/d/1dZ2fuN0GaLxGD8UUEu5-bvi8LprsrSlo/view?usp=sharing",
+      alt_name: "Celonis",
       color_code: "#1F70C199",
     },
     {
-      title: "Big Data",
-      subtitle: "- Kim Akers",
-      logo_path: "microsoft_logo.png",
+      title: "Cyber Security",
+      subtitle: "Palo",
+      logo_path: "palo.png",
       certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-      alt_name: "Microsoft",
+        "https://drive.google.com/file/d/13XxfTWMpQjd6UOTgXW6guep0jJtasSYc/view?usp=sharing",
+      alt_name: "Cyber",
       color_code: "#D83B0199",
     },
     {
-      title: "Advanced Data Science",
-      subtitle: "- Romeo Kienzler",
-      logo_path: "ibm_logo.png",
+      title: "CISCO",
+      subtitle: "Cisco Academy ",
+      logo_path: "cisco.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
+        "https://drive.google.com/file/d/1a4FkTK01H8WjXhJdmY_lkifchUdWlUOz/view?usp=sharing",
+      alt_name: "cisco",
+      color_code: "#ffffff",
     },
     {
-      title: "Advanced ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
+      title: "Data Science",
+      subtitle: "Hackthon",
+      logo_path: "ict.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "DL on Tensorflow",
-      subtitle: "- Laurence Moroney",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-      alt_name: "deeplearning.ai",
+        "https://drive.google.com/file/d/1JpGzqCtH7EvobdqhAUwBirzHE0bdrD3P/view?usp=sharing",
+      alt_name: "ict",
       color_code: "#00000099",
     },
     {
-      title: "Fullstack Development",
-      subtitle: "- Jogesh Muppala",
-      logo_path: "coursera_logo.png",
+      title: "Java J2EE",
+      subtitle: "WIPRO",
+      logo_path: "Wipro.webp",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-      alt_name: "Coursera",
-      color_code: "#2A73CC",
+        "https://drive.google.com/file/d/1pjU3RG5kPEQD8_hpYcAddC-YDZNx1x_9/view?usp=sharing",
+      alt_name: "wipro",
+      color_code: "#ffffff",
     },
-    {
+    /*{
       title: "Kuberenetes on GCP",
       subtitle: "- Qwiklabs",
       logo_path: "gcp_logo.png",
@@ -517,7 +522,7 @@ const certifications = {
         "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
       alt_name: "GCP",
       color_code: "#4285F499",
-    },
+    },*/
   ],
 };
 
@@ -526,83 +531,81 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "Work experience refers to the paid employment that you have had in the past. When describing your work experience, it's important to highlight your responsibilities, accomplishments, and any notable achievements. Here's a potential format for describing your work experience.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work",
-      work: true,
       experiences: [
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - Aug 2021",
-          location: "Hyderabad, Telangana",
+          title: "Full Stack Developer",
+          company: "Virtusa",
+          company_url: "https://www.virtusa.com/",
+          logo_path: "virtusa.webp",
+          duration: "June 2022 - Apr 2023",
+          location: "Hyderabad, Telangana, Chennai",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+            "Full stack development is a highly sought-after skillset in the tech industry, as it allows developers to work on a wide range of projects and take on a variety of roles within a development team. It requires a strong foundation in computer science and programming principles, as well as a passion for innovation and problem-solving.",
           color: "#0879bf",
         },
         {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
+          title: "Vel Tech Developer",
+          company: "veltech",
+          company_url: "https://www.veltech.edu.in/",
+          logo_path: "iu_logo.png",
           duration: "May 2018 - Oct 2018",
           location: "Pune, Maharashtra",
           description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
+            "I have created complete Android Application for locating classes, Room numbers around people. I have also worked on implementation of algorithms for Detection, Text extraction from text. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
           color: "#9b1578",
         },
-        {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
-          description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-          color: "#fc1f20",
-        },
+        // {
+        //   title: "Android Developer",
+        //   company: "FreeCopy Pvt. Ltd.",
+        //   company_url: "https://www.linkedin.com/company/freecopy/about/",
+        //   logo_path: "freecopy_logo.png",
+        //   duration: "Nov 2017 - Dec 2017",
+        //   location: "Ahmedabad, Gujarat",
+        //   description:
+        //     "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
+        //   color: "#fc1f20",
+        // },
       ],
     },
     {
       title: "Internships",
       experiences: [
         {
-          title: "Machine Learning Intern",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "May 2022 - Aug 2022",
-          location: "San Francisco, USA",
+          title: "Responsive Portfolio Website",
+          company: "Vel Tech",
+          company_url: "https://www.veltech.edu.in/",
+          logo_path: "pf.png",
+          duration: "Jan 2023 - Apr 2023",
+          location: "Chennai, TamilNadiu",
           description:
             "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
           color: "#000000",
         },
         {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
-          company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
+          title: "Java Full Stack Internship",
+          company: "Virtusa",
+          company_url: "https://www.virtusa.com/",
+          logo_path: "virtusa.webp",
+          duration: "June 2022 - Current",
+          location: "Hyderbad",
           description:
             "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
           color: "#ee3c26",
         },
         {
-          title: "Data Science Intern",
-          company: "Intel Indexer LLC",
-          company_url:
-            "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-          logo_path: "intel_logo.jpg",
-          duration: "Nov 2018 - Dec 2018",
+          title: "HR - Coordinator Internship",
+          company: "Start Up World",
+          company_url: "https://startupworld.in/",
+          logo_path: "start.PNG",
+          duration: "Nov 2022 - Mar 2023",
           location: "Work From Home",
           description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
+            "This is Serviced based Company. I have taken the interviews for the interns company which can perform time series analysis.",
           color: "#0071C5",
         },
       ],
@@ -615,7 +618,7 @@ const experience = {
           company: "Google",
           company_url: "https://about.google/",
           logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
+          duration: "June 2021 - April 2022",
           location: "Hyderabad, Telangana",
           description:
             "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
@@ -626,7 +629,7 @@ const experience = {
           company: "Microsoft",
           company_url: "https://www.microsoft.com/",
           logo_path: "microsoft_logo.png",
-          duration: "Aug 2019 - May 2020",
+          duration: "Aug 2020 - May 2021",
           location: "Hyderabad, Telangana",
           description:
             "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
@@ -649,7 +652,7 @@ const experience = {
           company_url:
             "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
           logo_path: "dsc_logo.png",
-          duration: "Jan 2018 - May 2020",
+          duration: "Jan 2019 - May 2020",
           location: "Kurnool, Andhra Pradesh",
           description:
             "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
@@ -660,7 +663,7 @@ const experience = {
           company: "Github",
           company_url: "https://github.com/",
           logo_path: "github_logo.png",
-          duration: "July 2019 - PRESENT",
+          duration: "Mar 2023 - PRESENT",
           location: "Work From Home",
           description:
             "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
@@ -734,8 +737,8 @@ const publications = {
 // Contact Page
 const contactPageData = {
   contactSection: {
-    title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    title: "Contact Us On",
+    profile_image_path: "abc1.png",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
   },
@@ -743,24 +746,19 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://blogs.ashutoshhathidara.com/",
+    link: "https://www.blogger.com/u/2/blog/posts/6121194333102290860",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
     subtitle:
-      "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
-    locality: "Kanodar",
-    country: "IN",
-    region: "Gujarat",
-    postalCode: "385520",
-    streetAddress: "Ambavadi vas",
-    avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+      "Vel Tech Rangarajan Dr.Sagunthala R&D Institute of Science and Technology, Avadi, Chennai, India.",
+    avatar_image_path: "",
+    location_map_link: "https://goo.gl/maps/8Ky3ZVhXKFtPTr7F7",
   },
   phoneSection: {
-    title: "",
-    subtitle: "",
+    title: "Call Me or Mail ME",
+    subtitle: "+917680851886 or sai.9441051886@gmail.com",
   },
 };
 

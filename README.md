@@ -1,5 +1,5 @@
-# Developer Master Portfolio 🔥
+#                                                                     Developer Master Portfolio 🔥
 
-## A clean, beautiful, responsive, and 100% customizable portfolio
+##                                         A clean, beautiful, responsive, and 100% customizable portfolio
 
-## template for Developers!
+##                                            template for Developers!

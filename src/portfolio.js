@@ -83,7 +83,7 @@ const skills = {
       title: "PHD Admission Portal",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Implemented RESTful APIs using Spring-boot to facilitate communication between the frontend and backend components.,
+        "⚡ Implemented RESTful APIs using Spring-boot to facilitate communication between the frontend and backend components.",
         "⚡ Developed a dynamic and responsive frontend using React to provide a seamless user experience.",
         "⚡ Using spring-security Jwt token techniques, Implemented secure user-authentication and authorization mechanisms to ensure data privacy.",
         "⚡ FIntegrated a database management system using JPA Hibernate MySql to store and retrieve applicant information. ",

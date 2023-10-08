@@ -88,31 +88,35 @@ const skills = {
         "⚡ Using spring-security Jwt token techniques, Implemented secure user-authentication and authorization mechanisms to ensure data privacy.",
         "⚡ FIntegrated a database management system using JPA Hibernate MySql to store and retrieve applicant information. ",
       ],
-     softwareSkills: [
+        softwareSkills: [
         {
-	 const skills = {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
+          skillName: "Machine Learing",
+          fontAwesomeClassname: "logos-tensorflow",
           style: {
-            color: "#CC6699",
+            backgroundColor: "transparent",
           },
         },
         {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-	const skills = {
-            color: "#61DAFB",
+          skillName: "Keras",
+          fontAwesomeClassname: "simple-icons:keras",
+          style: {
+            backgroundColor: "white",
+            color: "#D00000",
           },
         },
         {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-	 @@ const skills = {
-            color: "#2C8EBB",
+          skillName: "PyTorch",
+          fontAwesomeClassname: "logos-pytorch",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "ion-logo-python",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
           },
         },
       ],

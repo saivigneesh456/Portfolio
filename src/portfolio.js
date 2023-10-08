@@ -19,13 +19,13 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "infyskill",
+  title: "M.Krishna Sai Vignesh",
   logo_name: "VELTECH",
-  nickname: "Vignesh,Madhav,Jakeer",
+  nickname: "Sai Vignesh",
   subTitle:
-    "This website is prepared by us supervised by Mr. Siva Rama Lingham.N. In this application we can show cases the work and clinets.My work showcases my passion in developing and my dedication to delivering exceptional results. With many no of clinets in the industry, I have developed a keen eye for detail and an ability to bring my client's vision to life.",
+    "Enthusiastic and dedicated graduate with a strong foundation in computer science and programming. Eager to leverage my academic knowledge and passion for technology to kick-start a career as a software engineer. Proficient in languages such as Java, Python, and React, with a focus on developing innovative and efficient solutions. Adept at collaborating in team environments and highly motivated to learn and grow in a fast-paced setting. Excited to contribute fresh ideas and a proactive approach to solving real-world problems through technology.",
   resumeLink:
-    "https://drive.google.com/file/d/16yECKthYQ2fu995O2IhmQLbtQqC_RZ7j/view?usp=sharing",
+    "https://drive.google.com/file/d/1X0n7A-fXZW72lOIpw7K15cvUrX2UwNUh/view?usp=sharing",
   portfolio_repository: "https://github.com/saivigneesh456",
   githubProfile: "https://github.com/saivigneesh456",
 };
@@ -80,13 +80,13 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Full Stack Development",
+      title: "PHD Admission Portal",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Full stack development refers to the practice of developing both the front-end and back-end components of a website or application.",
-        "⚡ Full stack developers are skilled in multiple programming languages and frameworks and can work on all layers of an application's architecture.",
-        "⚡ This requires a broad range of skills, including proficiency in programming languages such as HTML, CSS, JavaScript, and at least one back-end language like Java, Python, or Ruby on Rails.",
-        "⚡ Full stack developers are responsible for creating and integrating various software components to ensure that an application runs smoothly and efficiently. ",
+        "⚡ Implemented RESTful APIs using Spring-boot to facilitate communication between the frontend and backend components.
+        "⚡ Developed a dynamic and responsive frontend using React to provide a seamless user experience.",
+        "⚡ Using spring-security Jwt token techniques, Implemented secure user-authentication and authorization mechanisms to ensure data privacy.",
+        "⚡ FIntegrated a database management system using JPA Hibernate MySql to store and retrieve applicant information. ",
       ],
       softwareSkills: [
         {
@@ -101,13 +101,6 @@ const skills = {
           fontAwesomeClassname: "fa-css3",
           style: {
             color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "simple-icons:python",
-          style: {
-            color: "#CC6699",
           },
         },
         {
@@ -126,13 +119,6 @@ const skills = {
           },
         },
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
           skillName: "NPM",
           fontAwesomeClassname: "simple-icons:npm",
           style: {
@@ -144,20 +130,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:yarn",
           style: {
             color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
           },
         },
       ],

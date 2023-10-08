@@ -90,7 +90,7 @@ const skills = {
       ],
      softwareSkills: [
         {
-	@@ -103,13 +103,6 @@ const skills = {
+	 const skills = {
             color: "#1572B6",
           },
         },
@@ -104,14 +104,14 @@ const skills = {
         {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
-	@@ -125,13 +118,6 @@ const skills = {
+	const skills = {
             color: "#61DAFB",
           },
         },
         {
           skillName: "NPM",
           fontAwesomeClassname: "simple-icons:npm",
-	@@ -146,20 +132,6 @@ const skills = {
+	 @@ const skills = {
             color: "#2C8EBB",
           },
         },

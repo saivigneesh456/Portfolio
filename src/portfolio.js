@@ -83,52 +83,35 @@ const skills = {
       title: "PHD Admission Portal",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Implemented RESTful APIs using Spring-boot to facilitate communication between the frontend and backend components.
+        "⚡ Implemented RESTful APIs using Spring-boot to facilitate communication between the frontend and backend components.,
         "⚡ Developed a dynamic and responsive frontend using React to provide a seamless user experience.",
         "⚡ Using spring-security Jwt token techniques, Implemented secure user-authentication and authorization mechanisms to ensure data privacy.",
         "⚡ FIntegrated a database management system using JPA Hibernate MySql to store and retrieve applicant information. ",
       ],
-      softwareSkills: [
+     softwareSkills: [
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
+	@@ -103,13 +103,6 @@ const skills = {
+            color: "#1572B6",
           },
         },
         {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
+          skillName: "Java",
+          fontAwesomeClassname: "simple-icons:java",
           style: {
-            color: "#1572B6",
+            color: "#CC6699",
           },
         },
         {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
+	@@ -125,13 +118,6 @@ const skills = {
             color: "#61DAFB",
           },
         },
         {
           skillName: "NPM",
           fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
+	@@ -146,20 +132,6 @@ const skills = {
             color: "#2C8EBB",
           },
         },
